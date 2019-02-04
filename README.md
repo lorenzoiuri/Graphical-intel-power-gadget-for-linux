@@ -7,9 +7,10 @@ The official Intel power gadget for linux doesn't lacks a graphical interface un
 * customizable colors
 * customizable window size
 * customizable number of horizontal lines
-<img style="float: right;" src="https://raw.githubusercontent.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/master/res/linux1.png">
+
+<img style="float: left;" src="https://raw.githubusercontent.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/master/res/linux1.png">
+
+<img style="float: right;" src="https://raw.githubusercontent.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/master/res/linux12.png">
 
 ## Requierements
 * SDL2
-
-![screenshot2](https://raw.githubusercontent.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/master/res/linux2.png)
