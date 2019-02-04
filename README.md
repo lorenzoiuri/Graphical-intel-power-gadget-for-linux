@@ -27,3 +27,5 @@ The official Intel power gadget for linux lacks a graphical interface unlike the
 4. Load the kernel module: `sudo modprobe msr`
 5. Run with `sudo ./intel_power_gadget`
 6. Customize the setting in the source code as you prefer
+
+Note: if the compiler doesnt find SDL2 try changing the path of the header file in the first line of the code
