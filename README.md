@@ -21,4 +21,6 @@ The official Intel power gadget for linux lacks a graphical interface unlike the
 * an Intel cpu (2nd generation onwards)
 
 ## How to use
-1. download and compile the Intel power gadget from [here](https://software.intel.com/en-us/articles/intel-power-gadget-20), if it doesn't compile try the evrsion hosted in this repository ([here](https://github.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/raw/master/intel_own_gadget.tar.gz))
+1. Download and compile the Intel power gadget from [here](https://software.intel.com/en-us/articles/intel-power-gadget-20), if it doesn't compile try the version hosted in this repository ([here](https://github.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/raw/master/intel_own_gadget.tar.gz))
+2. Rename the executable to "watts" and place it in `/usr/local/sbin/`, otherwise change the path in the source code of the `intel_power_gadget.c`
+
