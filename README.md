@@ -16,5 +16,5 @@ The official Intel power gadget for linux doesn't lacks a graphical interface un
 -->
 
 
-## Requierements
+## Requirements
 * SDL2
