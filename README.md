@@ -8,9 +8,11 @@ The official Intel power gadget for linux doesn't lacks a graphical interface un
 * customizable window size
 * customizable number of horizontal lines
 
-<img align="left" width="227" height="482" src="https://raw.githubusercontent.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/master/res/linux1.png">
+<img align="right" width="227" height="482" src="https://raw.githubusercontent.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/master/res/linux1.png">
 
+<!--
 <img align="left" width="302" height="632" src="https://raw.githubusercontent.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/master/res/linux2.png">
+-->
 
 
 ## Requierements
