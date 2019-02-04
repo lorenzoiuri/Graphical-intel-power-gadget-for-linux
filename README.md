@@ -31,3 +31,4 @@ The official Intel power gadget for linux lacks a graphical interface unlike the
 8. Customize the setting in the source code as you prefer
 
 Note: if the compiler doesn't find SDL2 try changing the path of the header file in the first lines of the code
+Note: tested in Ubuntu 18.04 with KDE
