@@ -5,6 +5,7 @@ The official Intel power gadget for linux doesn't lacks a graphical interface un
 
 ## Features
 <img style="float: right;" src="https://raw.githubusercontent.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/master/res/linux1.png">
+
 * customizable colors
 * customizable window size
 * customizable number of horizontal lines
