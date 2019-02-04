@@ -18,6 +18,6 @@ The official Intel power gadget for linux lacks a graphical interface unlike the
 
 ## Requirements
 * SDL2
-* at least a sandy bridge intel cpu
+* an Intel cpu (2nd generation onwards)
 
 ## How to use
