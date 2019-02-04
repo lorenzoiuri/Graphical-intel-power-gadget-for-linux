@@ -10,7 +10,7 @@ The official Intel power gadget for linux doesn't lacks a graphical interface un
 
 <img style="float: left;" src="https://raw.githubusercontent.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/master/res/linux1.png">
 
-<img style="float: right;" src="https://raw.githubusercontent.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/master/res/linux12.png">
+<img style="float: right;" src="https://raw.githubusercontent.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/master/res/linux2.png">
 
 ## Requierements
 * SDL2
