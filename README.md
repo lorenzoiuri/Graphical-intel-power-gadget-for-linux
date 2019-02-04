@@ -30,6 +30,9 @@ The official Intel power gadget for linux lacks a graphical interface unlike the
 7. Run with `sudo ./intel_power_gadget`
 8. Customize the setting in the source code as you prefer
 
+## Options
+* Run the executable with an argument to get the measured values as output in the terminal
+
 Note: if the compiler doesn't find SDL2 try changing the path of the header file in the first lines of the code
 
 Note: tested in Ubuntu 18.04 with KDE
