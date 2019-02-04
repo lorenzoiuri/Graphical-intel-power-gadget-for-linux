@@ -12,5 +12,6 @@ The official Intel power gadget for linux doesn't lacks a graphical interface un
 
 <img align="left" width="302" height="632" src="https://raw.githubusercontent.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/master/res/linux2.png">
 
+
 ## Requierements
 * SDL2
