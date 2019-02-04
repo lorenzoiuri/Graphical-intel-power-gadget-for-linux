@@ -14,16 +14,16 @@
 //set here the value of watts that will be the reference for the maximum value displayed (top of the graph)
 static const double maxWatts = 50;
 //set here the value specified by the black horizontal lines
-static const double lineEveryWatt = 4;
+static const double lineEveryWatt = 1.5;
 
 //set here the colors of the lines and axes
-SDL_Color bg_color = {255,255,255,255};
-SDL_Color axes_color = {0,0,255,255};
-SDL_Color horiz_color = {0,0,0,255};
-SDL_Color draw_line = {255,0,0,255};
+SDL_Color bg_color = {240,240,240,255};
+SDL_Color axes_color = {120,120,120,255};
+SDL_Color horiz_color = {230,230,230,225};
+SDL_Color draw_line = {0,0,178,255};
 
 //set here the size of the window (SMALL, MEDIUM, LARGE)
-static const double yProportion = SMALL;
+static const double yProportion = MEDIUM;
 
 // --- end of parameters customization ---
 
@@ -84,9 +84,15 @@ int main(int argc, char **argv) {
         SDL_SetRenderDrawColor(renderer, bg_color.r, bg_color.g, bg_color.b, bg_color.a);
         SDL_RenderClear(renderer);
         
+        //Draw sections lines
+        SDL_SetRenderDrawColor(renderer, horiz_color.r, horiz_color.g, horiz_color.b, horiz_color.a);
+        for (int i=1; i<=numberOfSections; i++) {
+            SDL_RenderDrawLine(renderer, axisOffset, height-axisOffset-(height*0.95*i/numberOfSections), width*0.95+xAxisThickness, height-axisOffset-(height*0.95*i/numberOfSections));
+        }
+
         // Draw vertical axis
         SDL_SetRenderDrawColor(renderer, axes_color.r, axes_color.g, axes_color.b, axes_color.a);
-        SDL_Rect vert_rect = {axisOffset, height-(height*0.95)-axisOffset+xAxisThickness, yAxisThickness, height*0.95};
+        SDL_Rect vert_rect = {axisOffset, height-(height*0.95)-axisOffset, yAxisThickness, height*0.95+xAxisThickness};
         SDL_RenderFillRect(renderer, &vert_rect);
 
 	    //Draw horizontal axis
@@ -94,11 +100,6 @@ int main(int argc, char **argv) {
         SDL_Rect horiz_rect = {axisOffset, height-axisOffset, width*0.95, xAxisThickness};
         SDL_RenderFillRect(renderer, &horiz_rect);
 
-        //Draw sections lines
-        SDL_SetRenderDrawColor(renderer, horiz_color.r, horiz_color.g, horiz_color.b, horiz_color.a);
-        for (int i=1; i<=numberOfSections; i++) {
-            SDL_RenderDrawLine(renderer, axisOffset, height-axisOffset-(height*0.95*i/numberOfSections), width*0.95+xAxisThickness, height-axisOffset-(height*0.95*i/numberOfSections));
-        }
 
         FILE *fp;
         char path[1035];
