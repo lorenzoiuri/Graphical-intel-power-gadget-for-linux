@@ -22,5 +22,8 @@ The official Intel power gadget for linux lacks a graphical interface unlike the
 
 ## How to use
 1. Download and compile the Intel power gadget from [here](https://software.intel.com/en-us/articles/intel-power-gadget-20), if it doesn't compile try the version hosted in this repository ([here](https://github.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/raw/master/intel_own_gadget.tar.gz))
-2. Rename the executable to "watts" and place it in `/usr/local/sbin/`, otherwise change the path in the source code of the `intel_power_gadget.c`
-
+2. Rename the executable to `watts` and place it in `/usr/local/sbin/` (otherwise change the path in the source code of the `intel_power_gadget.c`)
+3. Download the code in the repository and `make`
+4. Load the kernel module: `sudo modprobe msr`
+5. Run with `sudo ./intel_power_gadget`
+6. Customize the setting in the source code as you prefer
