@@ -1,7 +1,7 @@
 # Graphical intel power gadget for linux
 A simple graphical front-end for the intel power gadget utility for linux
 
-The official Intel power gadget for linux lacks a graphical interface unlike the windows and mac version (see <https://software.intel.com/en-us/articles/intel-power-gadget-20>).
+The official Intel power gadget for linux lacks a graphical interface unlike the windows and mac version (see <https://software.intel.com/en-us/articles/intel-power-gadget>).
 
 ## Features
 
