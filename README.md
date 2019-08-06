@@ -22,7 +22,7 @@ The official Intel power gadget for linux lacks a graphical interface unlike the
 
 ## How to use
 1. Install the SDL2 development libraries, for instance with `sudo apt install libsdl2-dev`
-2. Download and compile the Intel power gadget from [here](https://software.intel.com/en-us/articles/intel-power-gadget-20), if it doesn't compile try the version hosted in this repository ([here](https://github.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/raw/master/intel_own_gadget.tar.gz))
+2. Download and compile the Intel power gadget from [here](https://software.intel.com/en-us/articles/intel-power-gadget), if it doesn't compile try the version hosted in this repository ([here](https://github.com/lorenzoiuri/Graphical-intel-power-gadget-for-linux/raw/master/intel_own_gadget.tar.gz))
 3. Load the kernel module: `sudo modprobe msr`
 4. Test the program with `sudo ./power_gadget -e 100 -d 0.5 | grep "Average Processor Power"`, the result should be similar to `Average Processor Power_0(Watt)=5.0293`
 5. Rename the `power_gadget` executable to `watts` and place it in `/usr/local/sbin/` (otherwise change the path in the source code of the `intel_power_gadget.c`)
